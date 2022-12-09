@@ -7,52 +7,57 @@ import logo from '../public/static/images/cellprom.png';
 
 export default function Home() {
   return (
-    <div class="login-box">
-      <Image
-        alt="Cellprom logo"
-        src={logo}
-        width={1000}
-        height={1000}
-        style={{
-          maxWidth: '100%',
-          height: 'auto',
-        }}
-      />
-      <h2>Cellprom</h2>
-      <form>
-        <div class="user-box">
-          <input type="text" name="" required="" />
-          <label>Name</label>
-        </div>
-        <div class="user-box">
-          <input type="text" name="" required="" />
-          <label>Surname</label>
-        </div>
-        <div class="user-box">
-          <input type="text" name="" required="" />
-          <label>DNI</label>
-        </div>
-        <div class="user-box">
-          <input type="date" name="" required="" />
-          <label>Birth date</label>
-        </div>
-        <div class="user-box">
-          <input type="text" name="" required="" />
-          <label>Age</label>
-        </div>
-        <br />
-        <div class="user-box-area">
-          <textarea type="text" name="" required="" />
-          <label>Patient</label>
-        </div>
-        <a href="#">
-          <span></span>
-          <span></span>
-          <span></span>
-          <span></span>
-          Load
-        </a>
-      </form>
-    </div>
+    <>
+      <div>
+        <Image
+          alt="Cellprom logo"
+          src={logo}
+          width={100}
+          height={100}
+          style={{
+            maxWidth: '100%',
+            height: 'auto',
+          }}
+        />
+      </div>
+
+      <div class="login-box">
+        <h2>Cellprom</h2>
+        <form>
+          <div className="user-box">
+            <input type="text" name="" required="" />
+            <label>Name</label>
+          </div>
+          <div className="user-box">
+            <input type="text" name="" required="" />
+            <label>Surname</label>
+          </div>
+          <div className="user-box">
+            <input type="text" name="" required="" />
+            <label>DNI</label>
+          </div>
+          <div className="user-box">
+            <input type="date" name="" required="" />
+            <label>Birth date</label>
+          </div>
+          <div className="user-box">
+            <input type="text" name="" required="" />
+            <label>Age</label>
+          </div>
+          <br />
+          <div className="user-box-area">
+            <textarea type="text" name="" required="" />
+            <label>Patient</label>
+          </div>
+          <a href="#">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            Load
+          </a>
+        </form>
+      </div>
+    </>
   );
 }
