@@ -11,7 +11,7 @@ export default function Home() {
           <label>Name</label>
         </div>
         <div class="user-box">
-          <input type="password" name="" required="" />
+          <input type="text" name="" required="" />
           <label>Surname</label>
         </div>
         <div class="user-box">
@@ -19,13 +19,14 @@ export default function Home() {
           <label>DNI</label>
         </div>
         <div class="user-box">
-          <input type="password" name="" required="" />
+          <input type="date" name="" required="" />
           <label>Birth date</label>
         </div>
         <div class="user-box">
           <input type="text" name="" required="" />
           <label>Age</label>
         </div>
+        <br />
         <div class="user-box-area">
           <textarea type="text" name="" required="" />
           <label>Patient</label>
