@@ -3,30 +3,41 @@ import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
-    <div className={styles.container}>
-      <Head>
-        <title>Create Next App</title>
-      </Head>
-
-      <main className={styles.main}>
-        <h1 className={styles.title}>Cellprom</h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div>
-          <label for="fname">First name:</label>
-          <input type="text" id="fname" name="fname" value="John">
+    <div class="login-box">
+      <h2>Cellprom</h2>
+      <form>
+        <div class="user-box">
+          <input type="text" name="" required="" />
+          <label>Name</label>
         </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a href="https://next.new" target="_blank" rel="noopener noreferrer">
-          Created by&nbsp;<b>Ramón Cigüenza Fuster</b>&nbsp;⚡️
+        <div class="user-box">
+          <input type="password" name="" required="" />
+          <label>Surname</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="" required="" />
+          <label>DNI</label>
+        </div>
+        <div class="user-box">
+          <input type="password" name="" required="" />
+          <label>Birth date</label>
+        </div>
+        <div class="user-box">
+          <input type="text" name="" required="" />
+          <label>Age</label>
+        </div>
+        <div class="user-box">
+          <label>Patient schema</label>
+          <textarea type="password" name="" required="" />
+        </div>
+        <a href="#">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          Load
         </a>
-      </footer>
+      </form>
     </div>
   );
 }
