@@ -1,5 +1,6 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
+// STYLES ARE VERY SIMPLE USING STANDARD HTML GLOBAL CSS
+//import Head from 'next/head';
+//import styles from '../styles/Home.module.css';
 
 export default function Home() {
   return (
