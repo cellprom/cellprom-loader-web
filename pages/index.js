@@ -26,9 +26,9 @@ export default function Home() {
           <input type="text" name="" required="" />
           <label>Age</label>
         </div>
-        <div class="user-box">
-          <label>Patient schema</label>
-          <textarea type="password" name="" required="" />
+        <div class="user-box-area">
+          <textarea type="text" name="" required="" />
+          <label>Patient</label>
         </div>
         <a href="#">
           <span></span>

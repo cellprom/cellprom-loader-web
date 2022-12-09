@@ -32,6 +32,10 @@ body {
   position: relative;
 }
 
+.login-box .user-box-area {
+  position: relative;
+}
+
 .login-box .user-box input {
   width: 100%;
   padding: 10px 0;
@@ -43,7 +47,34 @@ body {
   outline: none;
   background: transparent;
 }
+
+.login-box .user-box-area textarea {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 30px;
+  border: none;
+  height: 40em;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  resize: none;
+  opacity: 0.5;
+  background: rgb(255, 255, 255);
+}
+
 .login-box .user-box label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.login-box .user-box-area label {
   position: absolute;
   top: 0;
   left: 0;
@@ -57,6 +88,14 @@ body {
 .login-box .user-box input:focus ~ label,
 .login-box .user-box input:valid ~ label {
   top: -20px;
+  left: 0;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.login-box .user-box-area textarea:focus ~ label,
+.login-box .user-box-area textarea:valid ~ label {
+  top: -30px;
   left: 0;
   color: #ffffff;
   font-size: 12px;
