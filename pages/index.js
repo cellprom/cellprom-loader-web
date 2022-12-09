@@ -2,9 +2,22 @@
 //import Head from 'next/head';
 //import styles from '../styles/Home.module.css';
 
+import Image from 'next/image';
+import logo from '../public/static/images/cellprom.png';
+
 export default function Home() {
   return (
     <div class="login-box">
+      <Image
+        alt="Cellprom logo"
+        src={logo}
+        width={1000}
+        height={1000}
+        style={{
+          maxWidth: '100%',
+          height: 'auto',
+        }}
+      />
       <h2>Cellprom</h2>
       <form>
         <div class="user-box">
