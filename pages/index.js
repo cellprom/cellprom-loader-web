@@ -1,14 +1,11 @@
-// STYLES ARE VERY SIMPLE USING STANDARD HTML GLOBAL CSS
-//import Head from 'next/head';
-//import styles from '../styles/Home.module.css';
-
+import styles from '../styles/Home.module.css';
 import Image from 'next/image';
-import logo from '../public/static/images/cellprom.png';
+import logo from '../public/static/images/cell.png';
 
 export default function Home() {
   return (
     <>
-      <div>
+      <div className={styles.image}>
         <Image
           alt="Cellprom logo"
           src={logo}
